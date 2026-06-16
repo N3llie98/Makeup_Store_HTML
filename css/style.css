@@ -1,0 +1,11 @@
+:root{
+    --test1: gray;
+    --test2: cadetblue;
+}
+/* якщо в root змінити колір він зміниться всюди же використайний var(--ім'я_кольору) */
+header, footer{
+    background-color: var(--test1);
+}
+nav{
+    background-color: var(--test2);
+}

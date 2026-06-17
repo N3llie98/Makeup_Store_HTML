@@ -103,6 +103,30 @@ main{
         }
     }
 }
+.shop-wrapper{
+    .desktop-menu{
+        position: sticky;
+        top: 10px;
+    }
+    .cards-wrapper{
+        background-color: aquamarine;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 75%;
+        img{
+            height: 200px;
+        }
+    }
+    .card{
+        background-color: brown;
+        width: 20%;
+        min-width: 300px;
+        height: 325px;
+        h3, p{
+            margin: 10px;
+        }
+    }
+}
 /* FOOTER */
 footer{
     width: 100%;
@@ -116,6 +140,9 @@ footer{
 
 /* DESKTOP-ONLY */
 @media (min-width:701px){
+    .shop-wrapper{
+        display: flex;
+    }
     #products{
         height: 600px;
         .cards-wrapper{
@@ -187,45 +214,53 @@ footer{
                 }
             }
         }
-        .desktop-menu{
+    }
+    .shop-wrapper{
+        .cards-wrapper{
+            width: 100%;
+            .card{
+                width: 90%;
+            }
+        }
+    }
+    .desktop-menu{
+        display: none;
+    }
+    .mobile-menu{
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        margin: 0 auto;
+        /* position: relative;
+        .dropdown-icon{
+            position: absolute;
+            right: 10px;
+            top: 10px;
+            height: 30px;
+            width: 30px;
+        } */
+        #menu-toggle {
             display: none;
         }
-        .mobile-menu{
-            padding: 10px;
-            display: flex;
-            flex-direction: column;
-            width: 95%;
-            margin: 0 auto;
-            /* position: relative;
-            .dropdown-icon{
-                position: absolute;
-                right: 10px;
-                top: 10px;
-                height: 30px;
-                width: 30px;
-            } */
-            #menu-toggle {
-                display: none;
-            }
-            input:not(:checked) ~ #collapse-menu{
-                transform: scaleY(0);
-                display: none;
-            }
-            label{
-                font-size: 1.5rem;
-                text-align: center;
-                width: 100%;
-            }
-            ul{
-                list-style-type: none;
-                margin-left: auto;
-                margin-right: auto;
-                margin-top: 10px;
-                margin-bottom: 10px;
-                padding: 0;
-                li{
-                    margin: 10px;
-                }
+        input:not(:checked) ~ #collapse-menu{
+            transform: scaleY(0);
+            display: none;
+        }
+        label{
+            font-size: 1.5rem;
+            text-align: center;
+            width: 100%;
+        }
+        ul{
+            list-style-type: none;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            padding: 0;
+            li{
+                margin: 10px;
             }
         }
     }

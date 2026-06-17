@@ -107,6 +107,93 @@ main{
             margin: 30px 0 10px 10px;
         }
     }
+    .product-wrapper{
+        display: flex;
+        .product-ui{
+            display: flex;
+            flex-direction: column;
+            margin: 10px 10px 10px 0;
+            width: 60%;
+            gap: 10px;
+        }
+        h1{
+            margin: 20px 0;
+            font-size: 2.5rem;
+        }
+        .img-wrapper{
+            width: 40%;
+            max-width: 600px;
+            height: auto;
+            padding: 20px;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .row{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        .price {
+            font-size: 1.25rem;
+        }
+        .in-stock{
+            height: 40px;
+            padding: 10px;
+            gap: 10px;
+            align-items: center;
+            img{
+                height: 30px;
+                width: 30px;
+            }
+        }
+        .buy-amount{
+            display: flex;
+            align-items: center;
+            text-align: center;
+            height: 40px;
+            width: 120px;
+            p{
+                margin: 0;
+                width: 40px;
+            }
+            button{
+                height: 100%;
+                width: 40px;
+            }
+        }
+        .buy{
+            height: 40px;
+            width: 80px;
+            align-content: center;
+            text-align: center;
+        }
+        .add-favourite{
+            width: 220px;
+            height: 40px;
+            padding: 10px;
+            margin-top: 10px;
+            a{
+                height: 30px;
+                align-content: center;
+            }
+            p{
+                margin: 0;
+            }
+            .icon{
+                width: 30px;
+                height: 30px;
+            }
+        }
+        .icon{
+            width: 30px;
+            height: 30px;
+        }
+        h3{
+            margin-bottom: 0;
+        }
+    }
 }
 h2{
     margin: 40px;
@@ -229,6 +316,19 @@ footer{
                 .card{
                     max-height: 400px;
                 }
+            }
+        }
+        .product-wrapper{
+            flex-direction: column;
+            width: 100%;
+            padding: 20px;
+            .img-wrapper{
+                width: 100%;
+                height: auto;
+                padding: 0;
+            }
+            .product-ui{
+                width: 100%;
             }
         }
     }

@@ -24,10 +24,18 @@ font-family: "Oswald", cursive;
   border:20px solid rgb(255, 0, 136);;
   background-color: #ffcc00;
 }
+.mobile-menu p{
+    font-family: "Pacifico", cursive;
+    color:rgb(255, 0, 136);
+    font-size:30px !important;
+}
 .mobile-menu
 {
-    border-radius: 12px;
-font-family: "Pacifico", cursive;
+     border-radius: 12px;
+font-family: "Oswald", cursive;
+  font-size: 18px;
+  border:20px solid rgb(255, 0, 136);;
+  background-color: #ffcc00;
 }
 a{
     color: rgb(255, 0, 136);;
@@ -57,4 +65,31 @@ font-size:15px;
     font-size:40px;
     color:rgb(255, 0, 136);
 }
+.hero-img
+{
+    border:10px solid #ffcc00;
+    border-radius:12px;
 
+}
+.product-ui h1
+{
+    font-family: "Oswald", cursive;
+    font-size:20px;
+    color:rgb(255, 0, 136);
+}
+.product-ui
+{
+    font-family: "Oswald", cursive;
+    font-size:15px;
+    color:rgb(255, 0, 136);
+}
+.hero-wrapper h3{
+    font-family: "Oswald", cursive;
+    font-size:30px;
+    color:rgb(255, 0, 136);
+}
+.products h3{
+    font-family: "Oswald", cursive;
+    font-size:30px;
+    color:rgb(255, 0, 136);
+}

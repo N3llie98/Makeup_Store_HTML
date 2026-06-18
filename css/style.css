@@ -9,6 +9,9 @@ header, footer{
 nav{
     background-color: var(--test2);
 }
+body {
+  background-color: rgb(251, 220, 176);
+}
 .desktop-menu p{
     font-family: "Pacifico", cursive;
     color:rgb(255, 0, 136);
@@ -42,5 +45,16 @@ border:10px solid #ffb300;
 border-radius: 12px;
 font-size:15px;
 }
-
+.side
+{
+    font-family: "Pacifico", cursive;
+    font-size:20px;
+    color:#ffcc00;
+}
+.page-title
+{
+    font-family: "Pacifico", cursive;
+    font-size:40px;
+    color:rgb(255, 0, 136);
+}
 

@@ -1,6 +1,6 @@
 :root{
-    --test1: gray;
-    --test2: cadetblue;
+    --test1: rgb(255, 0, 136);;
+    --test2: rgb(255, 0, 136);;
 }
 /* якщо в root змінити колір він зміниться всюди же використайний var(--ім'я_кольору) */
 header, footer{
@@ -9,3 +9,38 @@ header, footer{
 nav{
     background-color: var(--test2);
 }
+.desktop-menu p{
+    font-family: "Pacifico", cursive;
+    color:rgb(255, 0, 136);
+    font-size:30px !important;
+}
+.desktop-menu {
+  border-radius: 12px;
+font-family: "Oswald", cursive;
+  font-size: 18px;
+  border:20px solid rgb(255, 0, 136);;
+  background-color: #ffcc00;
+}
+.mobile-menu
+{
+    border-radius: 12px;
+font-family: "Pacifico", cursive;
+}
+a{
+    color: rgb(255, 0, 136);;
+}
+.card h3{
+    font-family:'Oswald';
+    color:#ffb300;
+}
+.card
+{
+font-family: 'Oswald',cursive;
+color:#ffcc00;
+background-color:rgb(255, 0, 136);
+border:10px solid #ffb300;
+border-radius: 12px;
+font-size:15px;
+}
+
+

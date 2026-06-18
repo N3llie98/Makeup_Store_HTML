@@ -220,7 +220,8 @@ h2{
     .card{
         width: 20%;
         min-width: 300px;
-        height: 325px;
+        hmin-height: 325px;
+height: auto;
         h3, p{
             margin: 10px;
         }
